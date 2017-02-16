@@ -1,0 +1,89 @@
+
+body{
+    height: 100%;
+    background-image: url("../img/main-bg.png");
+    background-size: cover;
+}
+html{
+    height: 100%;
+}
+.container{
+    max-width: 686px;
+    margin: 0 auto;
+}
+.nike-sb{
+    border-radius: 10px;
+    background-color:  #111a28;
+    width: 686px;
+    height: 391px;
+    margin-top: 15%;
+    box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
+}
+.header-sb{
+    padding-top: 24px;
+    padding-left: 21px;
+}
+.product-nike{
+    margin-top: 21px;
+}
+.product-card-cross{
+    width: 65%;
+    padding-top: 44px;
+    text-align: center;
+}
+.product-card-info{
+    width: 35%;
+    font-family: MuseoSansRounded sans-serif;
+    text-align: left;
+}
+.product-card-info,
+.product-card-cross {
+    float: left;
+}
+.product-card-info-title{
+    color: #e1e1e1;
+    font-size: 24px;/* Приближение из-за подстановки шрифтов */
+    padding-bottom: 16px;
+}
+.product-card-info-text{
+    color: #e1e1e1;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    padding-bottom: 24px;
+}
+.product-card-info-starts{
+    padding-bottom: 27px;
+}
+.info-btn{
+    border-width: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+    background-color: #111a28;
+    opacity: 0.26;
+    width: 67px;
+    height: 30px;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    color:  #e1e1e1;
+    cursor: pointer;
+    margin-bottom: 29px;
+}
+.info-btn:after{
+    content: url("../img/marker.png");
+    margin-left: 10px;
+}
+.info-btn:hover{
+    background-color: #4c525a;
+}
+.info-btn-add{
+    border-width: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+    background-color: #4c525a;
+    opacity: 0.26;
+    width: 182px;
+    height: 38px;
+    color:  #e1e1e1;
+    cursor: pointer;
+}
+.product-nike-slider{
+    padding-top: 70px;
+}
