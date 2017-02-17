@@ -13,25 +13,37 @@
     <div class="container">
         <div class="nike-sb">
             <header class="header-sb">
-                <img src="../img/logo.png" alt="logotype">
+                <img src="img/logo.png" alt="logotype">
             </header>
-            <section class="product-nike">
-                <div class="product-card-cross">
-                    <img src="../img/Nike-SB-Stefan-Janoski-Max.png" alt="img-nike">
-                    <section class="product-nike-slider">
-                        <img src="../img/points.png" alt="img">
+            <section class="product">
+                <div class="cross nike">
+                    <img src="img/Nike-SB-Stefan-Janoski-Max.png" alt="img-nike">
+                    <section class="cross__slider">
+                        <img src="img/points.png" alt="img">
                     </section>
                 </div>
-                <div class="product-card-info">
-                    <h1 class="product-card-info-title">Nike SB Stefan <br>Janoski Max</h1>
-                    <h5 class="product-card-info-text">Unisex Skateboarding Shoe</h5>
-                    <section class="product-card-info-starts">
-                        <img src="../img/stars.png" alt="img">
+                <div class="info nike">
+                    <h1 class="info__title">Nike SB Stefan <br>Janoski Max</h1>
+                    <h5 class="info__text">Unisex Skateboarding Shoe</h5>
+                    <section class="info__starts">
+                        <img src="img/stars.png" alt="img">
                     </section>
-                    <section class="product-card-info-btn">
-                        <button class="info-btn" type="button">Size</button>
-                        <button class="info-btn" type="button">Qty</button>
-                        <button class="info-btn-add" type="button">Add to cart</button>
+                    <section class="info-button">
+                        <select name="size" size="1" class="info__btn">
+                            <option selected value="s1">Size</option>
+                            <option value="s2">39</option>
+                            <option value="s3">40</option>
+                            <option value="s4">41</option>
+                            <option value="s5">42</option>
+                        </select>
+                        <select name="quantity" size="1" class="info__btn">
+                            <option selected value="s1">Qty</option>
+                            <option value="s2">1</option>
+                            <option value="s3">2</option>
+                            <option value="s4">3</option>
+                            <option value="s5">4</option>
+                        </select>
+                        <button class="info__btn-add" type="button">Add to cart</button>
                     </section>
                 </div>
             </section>

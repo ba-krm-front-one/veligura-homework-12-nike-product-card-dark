@@ -23,37 +23,37 @@ html{
     padding-top: 24px;
     padding-left: 21px;
 }
-.product-nike{
+.product{
     margin-top: 21px;
 }
-.product-card-cross{
+.cross{
     width: 65%;
     padding-top: 44px;
     text-align: center;
 }
-.product-card-info{
+.info{
     width: 35%;
     font-family: MuseoSansRounded sans-serif;
     text-align: left;
 }
-.product-card-info,
-.product-card-cross {
+
+.nike {
     float: left;
 }
-.product-card-info-title{
+.info__title{
     color: #e1e1e1;
     font-size: 24px;/* Приближение из-за подстановки шрифтов */
     padding-bottom: 16px;
 }
-.product-card-info-text{
+.info__text{
     color: #e1e1e1;
     font-size: 14px;/* Приближение из-за подстановки шрифтов */
     padding-bottom: 24px;
 }
-.product-card-info-starts{
+.info__starts{
     padding-bottom: 27px;
 }
-.info-btn{
+.info__btn{
     border-width: 1px;
     border-color: #ffffff;
     border-style: solid;
@@ -66,24 +66,20 @@ html{
     cursor: pointer;
     margin-bottom: 29px;
 }
-.info-btn:after{
-    content: url("../img/marker.png");
-    margin-left: 10px;
-}
-.info-btn:hover{
+.info__btn:hover{
     background-color: #4c525a;
 }
-.info-btn-add{
+.info__btn-add{
     border-width: 1px;
     border-color: #ffffff;
     border-style: solid;
     background-color: #4c525a;
+    color:  #e1e1e1;
     opacity: 0.26;
     width: 182px;
     height: 38px;
-    color:  #e1e1e1;
     cursor: pointer;
 }
-.product-nike-slider{
+.cross__slider{
     padding-top: 70px;
 }
