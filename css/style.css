@@ -1,0 +1,85 @@
+
+body{
+    height: 100%;
+    background-image: url("../img/main-bg.png");
+    background-size: cover;
+}
+html{
+    height: 100%;
+}
+.container{
+    max-width: 686px;
+    margin: 0 auto;
+}
+.nike-sb{
+    border-radius: 10px;
+    background-color:  #111a28;
+    width: 686px;
+    height: 391px;
+    margin-top: 15%;
+    box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
+}
+.header-sb{
+    padding-top: 24px;
+    padding-left: 21px;
+}
+.product{
+    margin-top: 21px;
+}
+.cross{
+    width: 65%;
+    padding-top: 44px;
+    text-align: center;
+}
+.info{
+    width: 35%;
+    font-family: MuseoSansRounded sans-serif;
+    text-align: left;
+}
+
+.nike {
+    float: left;
+}
+.info__title{
+    color: #e1e1e1;
+    font-size: 24px;/* Приближение из-за подстановки шрифтов */
+    padding-bottom: 16px;
+}
+.info__text{
+    color: #e1e1e1;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    padding-bottom: 24px;
+}
+.info__starts{
+    padding-bottom: 27px;
+}
+.info__btn{
+    border-width: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+    background-color: #111a28;
+    opacity: 0.26;
+    width: 67px;
+    height: 30px;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    color:  #e1e1e1;
+    cursor: pointer;
+    margin-bottom: 29px;
+}
+.info__btn:hover{
+    background-color: #4c525a;
+}
+.info__btn-add{
+    border-width: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+    background-color: #4c525a;
+    color:  #e1e1e1;
+    opacity: 0.26;
+    width: 182px;
+    height: 38px;
+    cursor: pointer;
+}
+.cross__slider{
+    padding-top: 70px;
+}
